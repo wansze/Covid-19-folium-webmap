@@ -5,4 +5,4 @@ Covid-19 data obtained from: https://corona-api.com/countries <br />
 Coordinates Dataset obtained from: https://developers.google.com/public-data/docs/canonical/countries_csv
 
 ## Overview of the map
-
+![Alt text](/map_overview.png?raw=true "Title")
