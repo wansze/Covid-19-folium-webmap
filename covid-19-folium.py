@@ -3,7 +3,7 @@ import requests
 import folium
 
 # Creating a base map (other style:  tiles = 'cartodbpositron')
-map = folium.Map(location = [51.50,-0.1276], tiles="OpenStreetMap", zoom_start = 5)
+map = folium.Map(location = [51.50,-0.1276], tiles="OpenStreetMap", zoom_start = 5, max_bounds=True, min_zoom=2)
 map.save("BaseMap.html")
 
 # Pull the data from corona-api
